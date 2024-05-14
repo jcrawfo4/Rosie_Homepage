@@ -1,0 +1,62 @@
+
+.hov {
+  height: 100px;
+  width: 40px;
+  background-color: skyblue;
+}
+.hov:hover {
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+}
+.every-even li:nth-child(even) {
+  background-color: yellow;
+}
+.every-third li:nth-child(3n) {
+  background-color: pink;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid black 
+}
+
+tr:nth-child(even) {
+  background-color: rgb(180, 189, 181);
+}
+tr:hover {
+  background-color: gray;
+}
+
+
+/* Target all h1 elements */
+#puppyDaysPage h1 {
+  color: hotpink; /* Set initial color to bright pink */
+}
+
+/* Add hover effect for h1 elements */
+h1:hover {
+  color: lightgreen; /* Change color to light green on hover */
+}
+
+.image-border {
+  border: 33px solid hotpink; /* Adjust border width, style, and color here */
+}
+
+.red-border {
+  border: 5px solid red;
+}
+
+.blue-border { /* Class for blue border */
+  border: 5px solid blue;
+}
+
+#unique-image {  /* ID for a specific image */
+  border: 10px solid green;
+}

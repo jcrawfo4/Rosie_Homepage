@@ -1,13 +1,13 @@
 
 .hov {
-  height: 100px;
-  width: 40px;
+  height: auto;
+  width: auto;
   background-color: skyblue;
 }
 .hov:hover {
   background-color: pink;
-  height: 100px;
-  width: 100px;
+  height: auto;
+  width: auto;
 }
 .every-even li:nth-child(even) {
   background-color: yellow;
